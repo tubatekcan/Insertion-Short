@@ -1,0 +1,23 @@
+Insertion Sort Projesi
+[22,27,16,2,18,6] 
+Dizinin Insertion Short algoritmasına göre sıralanışı aşağıdaki gibidir.
+1) 2,22,27,16,18,6
+2) 2,6,22,27,16,18
+3) 2,6,16,22,27,18
+4) 2,6,16,18,22,27
+5) 2,6,16,18,22,27
+6) 2,6,16,18,22,27
+Big-O Değeri : O(n²)
+
+Time Complexity
+Average Case: Aranan sayının ortada olması.
+Worst Case: Aranan sayının sonda olması.
+Best case: Aranan sayının dizinin en başında olması.
+Average Case = [...,...,18,...,...] Worst Case = [...,...,...,...,18] Best Case : [18,...,,,,,...,...]
+[2,6,16,18,22,27] Dizi sıralandıktan sonra 18 average case kapsamına girer.
+
+ [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımı;
+1=> [2,3,5,8,7,9,4,15,6]
+2=> [2,3,4,8,7,9,5,15,6]
+3=> [2,3,4,8,7,9,5,15,6]
+4=> [2,3,4,5,7,9,8,15,6]
